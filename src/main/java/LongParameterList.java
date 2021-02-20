@@ -1,7 +1,7 @@
 public class LongParameterList {
     public class Problem {
 
-        public void registerCustomer(String name, String email, String phoneNum  ){
+        public void registerCustomer(String name, String email, String phoneNum){
 
         }
     }
