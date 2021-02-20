@@ -1,4 +1,4 @@
-public class LongFunction {
+public class LongMethod {
     public class Problem {
 
         public void function() {
