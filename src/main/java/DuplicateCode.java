@@ -2,36 +2,40 @@ public class DuplicateCode {
 
     public class Problem {
 
-        public int sum(int firstNumber, int secondNumber) {
-
-            int sum = firstNumber + secondNumber;
-
-            return sum;
+        public void printFrontPage() {
+            System.out.println("Heading");
+            System.out.println("Welcome to the site");
+            System.out.println("Contact Us");
         }
 
-        public void printSum(int firstNumber, int secondNumber) {
-
-            int sum = firstNumber + secondNumber;
-
-            System.out.println(sum);
+        public void printLastPage() {
+            System.out.println("Headding");
+            System.out.println("Thank you for visitting");
+            System.out.println("Contact Us");
         }
     }
 
     public class Solution {
 
-        public int sum(int firstNumber, int secondNumber) {
-
-            int sum = firstNumber + secondNumber;
-
-            return sum;
+        public void printHeader() {
+            System.out.println("Heading");
         }
 
-        public void printSum(int firstNumber, int secondNumber) {
+        public void printFooter() {
+            System.out.println("Contact Us");
+        }
 
-            System.out.println(sum(firstNumber, secondNumber));
+        public void printFrontPage() {
+            printHeader();
+            System.out.println("Welcome to the site");
+            printFooter();
+        }
 
+        public void printLastPage() {
+            printHeader();
+            System.out.println("Thank you for visitting");
+            printFooter();
         }
     }
-
 
 }
