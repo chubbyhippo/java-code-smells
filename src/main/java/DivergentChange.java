@@ -9,28 +9,29 @@ public class DivergentChange {
 
     }
 
-    public class Database {
-        public void connect(){
-            System.out.println("Database connection");
-        }
-        public void details(){
-            System.out.println("Database's details");
-        }
-    }
-
-    public class CustomerDb extends Database{
-        @Override
-        public void connect() {
-            System.out.println("Customer's database connection");
-        }
-
-        @Override
-        public void details() {
-            System.out.println("Database's details");
-        }
-    }
 
     public class Solution {
+
+        public class Database {
+            public void connect(){
+                System.out.println("Database connection");
+            }
+            public void details(){
+                System.out.println("Database's details");
+            }
+        }
+
+        public class CustomerDb extends Database{
+            @Override
+            public void connect() {
+                System.out.println("Customer's database connection");
+            }
+
+            @Override
+            public void details() {
+                System.out.println("Database's details");
+            }
+        }
 
         public void printDbDetails() {
            Database customerDb = new CustomerDb();
