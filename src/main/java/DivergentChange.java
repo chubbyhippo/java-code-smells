@@ -11,7 +11,7 @@ public class DivergentChange {
 
 
     public class Solution {
-
+        // extract class
         public class Database {
             public void connect(){
                 System.out.println("Database connection");
