@@ -1,6 +1,6 @@
 public class DivergentChange {
     public class Problem {
-
+        // Divergent change is when many changes are made to a single class
         public void printDbDetails(){
             // change this when you want to connect to another database
             System.out.println("Customer's database connection");

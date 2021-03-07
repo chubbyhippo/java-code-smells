@@ -1,6 +1,6 @@
 class ShotgunSurgery {
     public class Problem {
-
+        // Shotgun surgery is when when a single change is made to multiple classes simultaneously
         public class Student {
             public String getId() {
                 return "ID123456789";
@@ -54,7 +54,7 @@ class ShotgunSurgery {
                 System.out.println(student.getId());
             }
 
-            // change htis to your liking
+            // change this to your liking
             public void printName(Student student) {
                 System.out.println(student.getName());
             }
