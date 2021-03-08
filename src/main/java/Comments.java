@@ -14,7 +14,11 @@ public class Comments {
 
     public class Solution {
 
-        List<String> name = new ArrayList<>();
+
+
+        List<String> names = new ArrayList<>();
+
+
 
     }
 }
