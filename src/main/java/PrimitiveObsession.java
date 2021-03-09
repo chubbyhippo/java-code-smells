@@ -2,17 +2,13 @@ import java.time.LocalDateTime;
 
 public class PrimitiveObsession {
     public class Problem {
+        public class CheckingAccount{
 
-        public class CheckingAccount {
-            private int accountNumber;
-            private String customerName;
-            private String email;
-
-            private String address;
-            private String zipCode;
             private String city;
             private String state;
             private String country;
+            private String zipCode;
+            private String telephoneNumber;
 
             private String socialSecurityNumber;
             private LocalDateTime activateDate;
@@ -37,7 +33,6 @@ public class PrimitiveObsession {
             private int accountNumber;
             private Customer customer;
             private Address address;
-            private LocalDateTime activateDate;
             private SocialSecurity socialSecurity;
             // getters and setters
         }
