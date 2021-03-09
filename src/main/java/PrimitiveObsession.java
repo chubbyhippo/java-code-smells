@@ -2,8 +2,9 @@ import java.time.LocalDateTime;
 
 public class PrimitiveObsession {
     public class Problem {
-        public class CheckingAccount{
+        public class CheckingAccount {
 
+            private int accountNumber;
             private String city;
             private String state;
             private String country;
